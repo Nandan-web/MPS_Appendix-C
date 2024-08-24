@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Certificate Form</title>
+</head>
+<body>
+    <p>To be completed by a registered medical practitioner.</p>
+    <h2>Medical Certificate</h2>
+    <p>Please ensure that the applicant has filled in all personal details in Section 1 before signing the declaration below.</p>
+    <p><strong>The MPS is designed to maintain the independence of people with a mobility disability.</strong> Applicants that do not meet the eligibility criteria on page 1 must not be certified as eligible for a permit. It is important that only people with medical conditions that severely affect their mobility are certified as meeting the scheme’s eligibility criteria.</p>
+
+    <fieldset>
+        <div>
+            <label for="applicantName">Name of applicant:</label>
+            <input type="text" id="applicantName" name="applicantName">
+        </div>
+
+        <div>
+            <label for="dob">Date of birth:</label>
+            <input type="text" id="day" name="dobDay" placeholder="Day" size="2">
+            <input type="text" id="month" name="dobMonth" placeholder="Month" size="2">
+            <input type="text" id="year" name="dobYear" placeholder="Year" size="4">
+        </div>
+
+        <p>I certify that I have examined the applicant shown above in this form and the applicant's condition is:</p>
+
+        <div>
+            <input type="checkbox" id="paraplegia" name="condition" value="Paraplegia">
+            <label for="paraplegia">Paraplegia</label><br>
+
+            <input type="checkbox" id="quadriplegia" name="condition" value="Quadriplegia">
+            <label for="quadriplegia">Quadriplegia</label><br>
+
+            <input type="checkbox" id="legAmputation" name="condition" value="Leg Amputation">
+            <label for="legAmputation">Leg amputation</label><br>
+
+            <input type="checkbox" id="motorNeuronDisease" name="condition" value="Motor Neuron Disease">
+            <label for="motorNeuronDisease">Motor Neuron disease</label><br>
+
+            <input type="checkbox" id="cerebralPalsy" name="condition" value="Cerebral Palsy">
+            <label for="cerebralPalsy">Cerebral palsy</label><br>
+
+            <input type="checkbox" id="chromosomalConditions" name="condition" value="Chromosomal or Syndromic Conditions">
+            <label for="chromosomalConditions">Chromosomal or syndromic conditions</label><br>
+
+            <input type="checkbox" id="neurodegenerativeDisorder" name="condition" value="Neurodegenerative Disorder">
+            <label for="neurodegenerativeDisorder">Neurodegenerative disorder</label><br>
+
+            <input type="checkbox" id="neuroMuscularDisorder" name="condition" value="Neuro Muscular Disorder">
+            <label for="neuroMuscularDisorder">Neuro muscular disorder</label><br>
+
+            <input type="checkbox" id="blindness" name="condition" value="Blindness">
+            <label for="blindness">Blindness</label><br>
+
+            <input type="checkbox" id="otherDisability" name="condition" value="Other">
+            <label for="otherDisability">OR another non-Clinically Recognisable Disability that meets the MPS eligibility criteria:</label>
+            <input type="text" id="otherDisabilityDetail" name="otherDisabilityDetail">
+        </div>
+
+        <div>
+            <p>Is the condition temporary?</p>
+            <input type="radio" id="temporaryYes" name="temporaryCondition" value="Yes">
+            <label for="temporaryYes">Yes</label>
+            <input type="radio" id="temporaryNo" name="temporaryCondition" value="No">
+            <label for="temporaryNo">No</label><br>
+
+            <label for="temporaryDuration">If temporary, give period of disability:</label>
+            <input type="text" id="temporaryDuration" name="temporaryDuration" placeholder="months" size="4"> (no more than 6 months)
+        </div>
+
+        <h3>Declaration by the registered medical practitioner</h3>
+
+        <p>***Please read important Privacy Statement and warning on page 1 of this form.</p>
+        <p>I declare that the details in this application are true and complete. I understand that my "personal information" is being collected for confirmation of the MPS Application Medical Certificate.</p>
+        <p>I certify that today I have examined the person shown as the applicant for a MPS permit and this person meets the eligibility criteria for a MPS permit as shown on the front page of this form.</p>
+
+        
+            <label for="practitionerName">Practitioner’s name:</label>
+            <input type="text" id="practitionerName" name="practitionerName">
+        
+
+        
+            <label for="businessAddress">Business address:</label>
+            <input type="text" id="businessAddress" name="businessAddress"><br>
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode">
+        
+
+        
+            <label for="providerNumber">Provider number:</label>
+            <input type="text" id="providerNumber" name="providerNumber"><br>
+            <label for="officePhoneNumber">Office telephone number:</label>
+            <input type="text" id="officePhoneNumber" name="officePhoneNumber">
+        
+
+        
+            <label for="signature">Signature:</label>
+            <input type="text" id="signature" name="signature">
+        
+
+        
+            <label for="date">Date:</label>
+            <input type="text" id="dateDay" name="dateDay" placeholder="Day" size="2">
+            <input type="text" id="dateMonth" name="dateMonth" placeholder="Month" size="2">
+            <input type="text" id="dateYear" name="dateYear" placeholder="Year" size="4">
+        
+
+    </fieldset>
+
+</body>
+</html>
